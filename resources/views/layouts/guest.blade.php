@@ -37,7 +37,7 @@
               <div class="flex items-center justify-between">
                 <a class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 md:text-2xl hover:text-green-400"
                   href="/">
-                  RESTO
+                  TableReserv
                 </a>
                 <!-- Mobile menu button -->
                 <div @click="isOpen = !isOpen" class="flex md:hidden">
@@ -58,9 +58,7 @@
                 <a class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400"
                   href="/">Home</a>
                 <a class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400"
-                  href="{{ route('categories.index') }}">Categories</a>
-                <a class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400"
-                  href="{{ route('menus.index') }}">Our Menu</a>
+                  href="{{ route('categories.index') }}">Table List</a>
                 <a class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:text-green-400"
                   href="{{ route('reservations.step.one') }}">Make Reservation</a>
                 <div>
@@ -83,13 +81,12 @@
                         <span class="icon icon-bar"></span>
                         <span class="icon icon-bar"></span>
                     </button>
-                    <a href="/" class="navbar-brand">RESTO</a>
+                    <a href="/" class="navbar-brand">TableReserv</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="/" class="smoothScroll">HOME</a></li>
-                        <li><a href="/categories" class="smoothScroll">CATEGORIES</a></li>
-                        <li><a href="/menus" class="smoothScroll">SPECIAL MENU</a></li>
+                        <li><a href="/" class="smoothScroll">TABLE LIST</a></li>
                         <li><a href="/reservations/step-one" class="smoothScroll">MAKE RESERVATION</a></li>
                         <li><a href="/contact" class="smoothScroll">CONTACT</a></li>
                     </ul>
@@ -153,11 +150,11 @@
                         <h2 class="heading">Contact Info.</h2>
                         <div class="ph">
                             <p><i class="fa fa-phone"></i> Phone</p>
-                            <h4>090-080-0760</h4>
+                            <h4>0123456789</h4>
                         </div>
                         <div class="address">
                             <p><i class="fa fa-map-marker"></i> Our Location</p>
-                            <h4>120 Duis aute irure, California, USA</h4>
+                            <h4>terk thla Sen Sok Phnom Penh</h4>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">

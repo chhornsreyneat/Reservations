@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>RESTO</title>
+	<title>TableReserv</title>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,13 +42,12 @@
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="/" class="navbar-brand">RESTO</a>
+			<a href="/" class="navbar-brand">TableReserv</a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="/" class="smoothScroll">HOME</a></li>
-				<li><a href="/categories" class="smoothScroll">CATEGORIES</a></li>
-				<li><a href="/menus" class="smoothScroll">SPECIAL MENU</a></li>
+				<li><a href="/" class="smoothScroll">TABLELIST</a></li>
 				<li><a href="/reservations/step-one" class="smoothScroll">MAKE RESERVATION</a></li>
 				<li><a href="/contact" class="smoothScroll">CONTACT</a></li>
 			</ul>
@@ -66,11 +65,11 @@
 				<h2 class="heading">Contact Info.</h2>
 				<div class="ph">
 					<p><i class="fa fa-phone"></i> Phone</p>
-					<h4>090-080-0760</h4>
+					<h4>0123456789</h4>
 				</div>
 				<div class="address">
 					<p><i class="fa fa-map-marker"></i> Our Location</p>
-					<h4>120 Duis aute irure, California, USA</h4>
+					<h4>Terk Thla Sen Sok Phnom Penh</h4>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
@@ -93,20 +92,6 @@
 	</div>
 </footer>
 
-
-<!-- copyright section -->
-<section id="copyright">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<h3>RESTO</h3>
-				<p>Copyright © RESTO and Cafe
-
-
-			</div>
-		</div>
-	</div>
-</section>
 
 <!-- JAVASCRIPT JS FILES -->
 <script src="{{ asset('zendo_assets/js/jquery.js') }}"></script>
